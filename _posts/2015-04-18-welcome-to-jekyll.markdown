@@ -4,22 +4,15 @@ title:  "Welcome to Jekyll!"
 date:   2015-04-18 15:00:45
 categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve --watch`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+#### Clamcase Pro for iPad Mini
 
-Jekyll also offers powerful support for code snippets:
+So I did it. I went and bought the Clamcase Pro for iPad Mini. I had been looking at it for the past few days. Maybe it was only a day... Whatever, it felt like days. And, of course, the cookies in my browser allowed Clamcase to target ads towards me from that point on, never letting me forget that I once contemplated their product for purchase.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+I tried to stay away, researching alternatives and asking myself, "Do I truly need a keyboard that costs 1/3 of the price of the device it is attaching itself to?"I tried to stay away, but the beautifully designed keyboard, high-res product photos and those damn targeted ads just kept pulling me back. 
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+![](assets/ipad_mini_keyboard_case_6.jpg "clamcase-ipadmini")
 
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+Eventually, the Clamcase website offered me a coupon code for signing up for their newsletter, which would bring down the cost by $20. The temptation to purchase had never been higher. I decided to look up some video reviews to see how it looks in motion and to get a better size comparison. Or perhaps I just wanted a little bit more of a nudge to convince myself that I should buy it. In any case, after a few videos I decided to go for it. If I'm gonna get another keyboard, I'm gonna get one of the best ones out there.
+
+I now await its arrival, which should be within the next 3-5 days. Today though, another keyboard splurge of mine arrives. The CODE Mechanical Keyboard. I don't know how it happened, but suddenly I'm a keyboard enthusiast.
