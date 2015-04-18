@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Clamcase Pro for iPad Mini"
 date:   2015-04-18 15:00:45
-categories: jekyll update
+categories: Gadgets
 ---
 
 #### Clamcase Pro for iPad Mini
