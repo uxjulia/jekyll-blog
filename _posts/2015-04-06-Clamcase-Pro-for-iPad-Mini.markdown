@@ -3,6 +3,7 @@ layout: post
 title:  "Clamcase Pro for iPad Mini"
 date:   2015-04-06 13:58
 image: /assets/images/clamcase-ipad-mini.jpg
+category: Gadgets
 ---
 So I did it. I went and bought the Clamcase Pro for iPad Mini. I had been looking at it for the past few days. Maybe it was only a day... Whatever, it felt like days. And, of course, the cookies in my browser allowed Clamcase to target ads towards me from that point on, never letting me forget that I once contemplated their product for purchase.
 
