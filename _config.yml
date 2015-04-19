@@ -3,7 +3,7 @@ title: The Grassy Median
 email: julia@8thsq.co
 description: "A personal blog about technology, gadgets and user experience"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://uxjulia.github.io" # the base hostname & protocol for your site
+url: "http://www.uxjulia.com" # the base hostname & protocol for your site
 twitter_username: uxjulia
 github_username:  uxjulia
 

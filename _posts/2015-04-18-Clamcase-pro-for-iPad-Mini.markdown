@@ -11,7 +11,7 @@ So I did it. I went and bought the Clamcase Pro for iPad Mini. I had been lookin
 
 I tried to stay away, researching alternatives and asking myself, "Do I truly need a keyboard that costs 1/3 of the price of the device it is attaching itself to?"I tried to stay away, but the beautifully designed keyboard, high-res product photos and those damn targeted ads just kept pulling me back. 
 
-![](assets/ipad_mini_keyboard_case_6.jpg "clamcase-ipadmini")
+![Clamcase Pro iPad Mini]({{ site.url }}/assets/ipad_mini_keyboard_case_6.jpg)
 
 Eventually, the Clamcase website offered me a coupon code for signing up for their newsletter, which would bring down the cost by $20. The temptation to purchase had never been higher. I decided to look up some video reviews to see how it looks in motion and to get a better size comparison. Or perhaps I just wanted a little bit more of a nudge to convince myself that I should buy it. In any case, after a few videos I decided to go for it. If I'm gonna get another keyboard, I'm gonna get one of the best ones out there.
 
