@@ -1,11 +1,55 @@
-# Site settings
-title: The Grassy Median
-email: hi@uxjulia.com
-description: "A personal blog about technology, gadgets and user experience"
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www.uxjulia.com" # the base hostname & protocol for your site
-twitter_username: uxjulia
-github_username:  uxjulia
-
 # Build settings
-markdown: kramdown
+markdown: redcarpet
+highlighter: pygments
+gems:
+  - jemoji
+
+# Site settings
+title: "The Grassy Medium"
+description: > # this means to ignore newlines until "email:"
+   A personal blog about technology, design and stuffs.
+
+email: hi@uxjulia.com
+#blog logo
+logo: "/assets/images/jn_logo.png"
+# blog cover
+cover: "/assets/images/bg.jpg"
+
+name: 'Julia Nguyen'
+author: 'Julia Nguyen'
+author_image: "/assets/images/author.jpg"
+
+paginate:	5
+
+url: "http://www.uxjulia.com" # the base hostname & protocol for your site
+baseurl: ""
+
+# social icons and sharing options
+social:
+  - icon:	twitter
+    url:	https://twitter.com/uxjulia
+    desc: Follow me on twitter
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
+
+  - icon:	linkedin
+    url:	https://www.linkedin.com/in/uxjulia
+    desc: Connect with me LinkedIn
+    share_url:
+    share_title:
+    share_link:
+
+#  - icon:	github
+#    url:	https://github.com/uxjulia
+#    desc:	Fork me on github
+#    share_url:
+#    share_title:
+#    share_link:
+
+#  - icon:	google-plus
+#    url:	https://google.com/???
+#    desc:	Add me on google+
+#    share_url:
+#    share_title:
+#    share_link:
