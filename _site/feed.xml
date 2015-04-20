@@ -6,9 +6,28 @@
 </description>
     <link>http://www.uxjulia.com/</link>
     <atom:link href="http://www.uxjulia.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 19 Apr 2015 22:32:44 -0400</pubDate>
-    <lastBuildDate>Sun, 19 Apr 2015 22:32:44 -0400</lastBuildDate>
+    <pubDate>Sun, 19 Apr 2015 22:38:03 -0400</pubDate>
+    <lastBuildDate>Sun, 19 Apr 2015 22:38:03 -0400</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Using Draftin for Version Control</title>
+        <description>&lt;p&gt;I’m frequently asked to proofread people’s writing, whether it be a resume, an essay or an email. While there is software out there that comes with change tracking, they don’t incorporate it with version control and collaboration in a way that’s easy to use and straightforward enough for the less than tech-savvy.&lt;/p&gt;
+
+&lt;p&gt;A while back, I had scoured the internet for a “GitHub” for writers. Basically a tool that would give me version control, allow multiple people to collaborate at once, easily distinguish any changes that were made and subsequently reject or accept those changes.&lt;/p&gt;
+
+&lt;p&gt;The solution that I found was in the form of a website: &lt;img src=&quot;http://www.draftin.com&quot; alt=&quot;draftin.com&quot;&gt;. It’s a barebones site with very little fluff and gets right to the point. You can start your writing project right there, or paste in writing from an outside source. It keeps track of all your changes and allows you to share your writing for feedback or, like in my case, share the edits you’ve made to someone else’s writing. It’s completely free to use but if you like the service, you can donate by buying a monthly or yearly subscription to help maintain the site.&lt;/p&gt;
+
+&lt;p&gt;The great thing is that all of the change tracking features work even if everything was done outside of the website. For example, I had already made all my edits to an essay but wanted to be able to share exactly where those edits were with another person. So I pasted in the original text into DraftIn and saved that as a draft. Then I went in and pasted over all of that text with my edited text. When I share the link, it highlights all of my changes right alongside the original text with an option to accept or reject. &lt;/p&gt;
+</description>
+        <pubDate>Fri, 17 Apr 2015 00:00:00 -0400</pubDate>
+        <link>http://www.uxjulia.com/websites/2015/04/17/draftin.html</link>
+        <guid isPermaLink="true">http://www.uxjulia.com/websites/2015/04/17/draftin.html</guid>
+        
+        
+        <category>websites</category>
+        
+      </item>
     
       <item>
         <title>Clamcase Pro for iPad Mini</title>
