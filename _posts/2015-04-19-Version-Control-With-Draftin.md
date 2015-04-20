@@ -1,10 +1,6 @@
 ---
-layout: post
-title:  Using Draftin for Version Control
-date:   unpublished
 categories: Websites
 ---
-
 I’m frequently asked to proofread people’s writing, whether it be a resume, an essay or an email. While there is software out there that comes with change tracking, they don’t incorporate it with version control and collaboration in a way that’s easy to use and straightforward enough for the less than tech-savvy.
 
 A while back, I had scoured the internet for a “GitHub” for writers. Basically a tool that would give me version control, allow multiple people to collaborate at once, easily distinguish any changes that were made and subsequently reject or accept those changes.
