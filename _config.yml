@@ -5,9 +5,9 @@ gems:
   - jemoji
 
 # Site settings
-title: "The Grassy Medium"
+title: "The Crumpled Logarithm"
 description: > # this means to ignore newlines until "email:"
-   A personal blog about technology, design and stuffs.
+   Personal ramblings about technology, gadgets and experience design.
 
 email: hi@uxjulia.com
 #blog logo
@@ -53,3 +53,13 @@ social:
 #    share_url:
 #    share_title:
 #    share_link:
+
+# default settings
+defaults:
+   -
+    scope:
+        path: ""
+        type: "posts"
+    values:
+        layout: "post"
+        
