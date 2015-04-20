@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Using Draftin for Version Control"
-date:   2015-04-17
+title:  Using Draftin for Version Control
+date:   unpublished
 categories: Websites
 ---
 

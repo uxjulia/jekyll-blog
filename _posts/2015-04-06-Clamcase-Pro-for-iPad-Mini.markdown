@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Clamcase Pro for iPad Mini"
+title:  Clamcase Pro for iPad Mini
 date:   2015-04-06 13:58
 image: /assets/images/clamcase-ipad-mini.jpg
 category: Gadgets
