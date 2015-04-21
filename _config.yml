@@ -5,6 +5,7 @@ gems:
   - jemoji
 
 # Site settings
+source: /Users/Home/Dropbox/Jekyll/uxjulia
 title: "The Crumpled Logarithm"
 description: > # this means to ignore newlines until "email:"
    Personal ramblings about technology, gadgets and experience design.
