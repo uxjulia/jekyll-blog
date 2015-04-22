@@ -59,7 +59,7 @@ social:
 defaults:
    -
     scope:
-        path: ""
+        path: "/Users/Home/Dropbox/Jekyll/uxjulia"
         type: "posts"
     values:
         layout: "post"
