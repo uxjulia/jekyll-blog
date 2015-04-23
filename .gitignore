@@ -2,3 +2,7 @@ _site/
 .sass-cache/
 .jekyll-metadata
 *.plist
+/_drafts/.sync/
+/_drafts/.Ulysses-Group.plist
+
+Gemfile.lock

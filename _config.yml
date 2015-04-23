@@ -1,4 +1,4 @@
-# Build settings
+ # Build settings
 markdown: redcarpet
 highlighter: pygments
 gems:
@@ -6,7 +6,7 @@ gems:
 
 # Site settings
 source: /Users/Home/Dropbox/Jekyll/uxjulia
-title: "The Crumpled Logarithm"
+title: "THE CRUMPLED LOGARITHM"
 description: > # this means to ignore newlines until "email:"
    Personal ramblings about technology, gadgets and experience design.
 
@@ -57,10 +57,8 @@ social:
 
 # default settings
 defaults:
-   -
     scope:
-        path: ""
-        type: "posts"
+       path: ""
+       type: "posts"
     values:
-        layout: "post"
-        
+       layout: "post"
