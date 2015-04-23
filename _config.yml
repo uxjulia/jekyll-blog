@@ -1,4 +1,4 @@
-# Build settings
+ # Build settings
 markdown: redcarpet
 highlighter: pygments
 gems:
@@ -57,9 +57,8 @@ social:
 
 # default settings
 defaults:
-   -
     scope:
-        path: "/Users/Home/Dropbox/Jekyll/uxjulia"
-        type: "posts"
+       path: ""
+       type: "posts"
     values:
-        layout: "post"
+       layout: "post"
