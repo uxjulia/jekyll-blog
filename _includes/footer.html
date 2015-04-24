@@ -1,7 +1,6 @@
 <!-- footer start -->
-
 <footer class="site-footer">
-     <div class="custom-links">
+     <!--<div class="custom-links">
         {% for social in site.social %}
         {% if social.url %}
             <a class="icon-{{ social.icon }}" href="{{ social.url }}">
@@ -9,10 +8,10 @@
             </a>&nbsp;&nbsp;
         {% endif %}
       {% endfor %}
-        </div>
+        </div>-->
     <div class="inner">
         <a class="subscribe" href="{{ "/feed.xml" | prepend: site.baseurl }}"> <span class="tooltip"> <i class="fa fa-rss"></i> Subscribe</span></a>
-         <section class="copyright">All content copyright <a href="mailto:{{ site.email}}">{{ site.name }}</a> &copy; {{ site.time | date: '%Y' }} &bull; All rights reserved.</section>
+         <section class="copyright">All content copyright <a href="mailto:{{ site.email}}">{{ site.name }}</a> &copy; {{ site.time | date: '%Y' }}  &bull;  All rights reserved.</section>
     </div>
 </footer>
 

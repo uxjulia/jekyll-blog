@@ -177,12 +177,11 @@ body
   max-width: 700px
 
 .index-hline
-  margin-left: auto
-  margin-right: auto
   padding-bottom: 10px
   span
+    font-family: $font-sans
     color: #5A789F
-    font-size: $rs/8*8
+    font-size: 20px
     text-transform: uppercase
     letter-spacing: 1px
 
@@ -237,6 +236,8 @@ body
   text-align: center
   color: #999
   line-height: $rs*1.1
+  .copyright
+    padding-top: 20px
   a
     color: #999
     text-decoration: none
@@ -352,15 +353,15 @@ body
       font-family: $font-sans
       white-space: nowrap
       text-overflow: ellipsis
-  .currently-page
+  .about-page
     // width: 100%
     //text-align: justify
     font-family: $font-serif
-    color: #A9A9A9
+    color: #666
     font-size: 18px
     h2
       font-family: $font-sans
-      color: #8B192E
+      color: #333
       letter-spacing: -0.02em
       //font-weight: 700
       font-style: normal
@@ -545,7 +546,7 @@ body
       font-size: 18px
       vertical-align: top
   .bottom-teaser
-    //padding: 50px 0
+    padding: 50px 0
     font-family: $font-sans
     hr
       border: 0
@@ -597,10 +598,19 @@ body
     .isLeft-misc
       float: left
       margin-left: auto
+      font-family: $font-serif
       margin-right: auto
       width: 48%
       @include respond-to(800)
         width: 100%
+      .book-title
+        font-size: 20px
+        color: #666
+      .book-author
+        font-size: 16px
+        color: #ccc
+      .comments
+        padding-top: 15px
         .index-headline-misc
           padding-bottom: 32px
     .isRight-misc
@@ -690,6 +700,14 @@ body
     padding: 120px 0 90px
     text-align: center
     margin: 0 auto
+    hr
+      border: 0
+      padding: 0
+      display: block
+      width: 100%
+      margin: 16px 0 16px 0px
+      border: 0px solid #ddd
+      border-top: 1px solid #ddd
     .blog-title
       margin: 0
       padding: 0 0 10px
