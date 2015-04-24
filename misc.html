@@ -49,7 +49,25 @@
         {% endif %}
         <section class="currently-page">
           <a name="topofpage"></a>
-            {{ content }}
+            <h2>CURRENTLY</h2>
+            <hr>
+            <h3>READING</h3>
+            {% for book in site.data.reading %}
+            {{ book.title }} by {{ book.author }}
+            {% endfor %}
+            <div><img src="/assets/images/books/book1.jpg"></div>
+
+            <h3>PLAYING</h3>
+            {% for game in site.data.games %}
+            <a href="http://1010ga.me">{{ game.title }}</a>
+            <h4>{{ game.comment }}</h4>
+            {% endfor %}
+
+            <h3>LEARNING</h3>
+            {% for learning in site.data.learning %}
+            - {{ learning.thing }}
+            <h4>{{ learning.comment }}</h4>
+            {% endfor %}
         </section>
       </article>
     </main>

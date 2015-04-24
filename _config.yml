@@ -15,6 +15,10 @@ logo: "/assets/images/jn_logo.png"
 # blog cover
 cover: "/assets/images/bg.jpg"
 
+#images for use on the "currently" page
+book: "/assets/images/books/book1.jpg"
+game: "/assets/images/games/game1.png"
+
 name: 'Julia Nguyen'
 author: 'Julia Nguyen'
 author_image: "/assets/images/author.jpg"
@@ -62,4 +66,3 @@ defaults:
         type: "posts"
     values:
         layout: "post"
-        
