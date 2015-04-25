@@ -19,8 +19,8 @@ cover: "/assets/images/bg.jpg"
 book: "/assets/images/books/book1.jpg"
 game: "/assets/images/games/game1.png"
 
-name: 'Julia Nguyen'
-author: 'Julia Nguyen'
+name: 'Julia'
+author: 'Julia'
 author_image: "/assets/images/author.jpg"
 
 paginate:	5
