@@ -1,27 +1,25 @@
-box: wercker/rvm
-# Build definition
-build:
-    # The steps that will be executed on build
-    # See the Ruby section on the wercker devcenter:
-    # http://devcenter.wercker.com/articles/languages/ruby.html
-    steps:
-        # Uncomment this to force RVM to use a specific Ruby version
-        # - rvm-use:
-        #       version: 2.2.2
-
-        # A step that executes `bundle install` command
-        - bundle-install
-
-        # A custom script step, name value is used in the UI
-        # and the code value contains the command that get executed
-        - script:
-            name: echo ruby information
-            code: |
-                echo "ruby version $(ruby --version) running"
-                echo "from location $(which ruby)"
-                echo -p "gem list: $(gem list)"
-
-        # Add more steps here:
-        # - script:
-        #    name: rspec
-        #    code: bundle exec rspec
+ 1 box: wercker/ruby
+ 2 no-response-timeout: 10
+ 3 build:
+ 4     steps:
+ 5         # Run smart version of bundle install
+ 6         - bundle-install
+ 7         # Run Jekyll doctor
+ 8         - script:
+ 9             name: Run Jekyll doctor
+10             code: bundle exec jekyll doctor
+11         # Build Jekyll public site
+12         - script:
+13             name: Build Jekyll site
+14             code: bundle exec jekyll build --trace
+15 deploy:
+16     steps:
+17         # Push site to AWS S3 bucket
+18         - s3sync:
+19             key_id: $AWS_ACCESS_KEY_ID
+20             key_secret: $AWS_SECRET_ACCESS_KEY
+21             bucket_url: $AWS_BUCKET_URL
+22             source_dir: _site/
+23             opts: |
+24                 --add-header Cache-Control:max-age=60
+25                 --no-preserve
