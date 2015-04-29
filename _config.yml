@@ -7,7 +7,7 @@ gems:
 # Site settings
 title: "THE CRUMPLED LOGARITHM"
 description: > # this means to ignore newlines until "email:"
-   Personal ramblings about technology, gadgets and experience design.
+  A Personal Blog
 
 email: hi@uxjulia.com
 #blog logo
