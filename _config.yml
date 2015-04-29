@@ -4,6 +4,8 @@ highlighter: pygments
 gems:
   - jemoji
 
+future: false
+
 # Site settings
 title: "THE CRUMPLED LOGARITHM"
 description: > # this means to ignore newlines until "email:"
@@ -66,3 +68,5 @@ defaults:
         type: "posts"
     values:
         layout: "post"
+
+exlude: [ "gemfile", "gemfile.lock", "Rakefile", "publish.*" ]
