@@ -1,6 +1,8 @@
 # Build settings
-markdown: kramdown
+markdown: redcarpet
 highlighter: pygments
+redcarpet:
+    extensions: ["strikethrough", "superscript", "footnote"]
 gems:
   - jemoji
 
