@@ -2,19 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>THE CRUMPLED LOGARITHM</title>
-    <description>Personal ramblings about technology, gadgets and experience design.
+    <description>A Personal Blog
 </description>
     <link>http://www.uxjulia.com/</link>
     <atom:link href="http://www.uxjulia.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 25 Apr 2015 23:52:31 -0400</pubDate>
-    <lastBuildDate>Sat, 25 Apr 2015 23:52:31 -0400</lastBuildDate>
+    <pubDate>Thu, 30 Apr 2015 19:00:56 -0400</pubDate>
+    <lastBuildDate>Thu, 30 Apr 2015 19:00:56 -0400</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Brackets Text Editor</title>
+        <description>&lt;p&gt;I&amp;#39;ve been using Brackets to make HTML and CSS changes to my blog and I&amp;#39;m finding that I&amp;#39;m liking it more and more each day. It falls into the same family of text editors such as Sublime, Atom and TextMate. If you&amp;#39;re familiar with those then you&amp;#39;ll know exactly the market segment Brackets is geared for. &lt;/p&gt;
+
+&lt;p&gt;I was on the fence about whether I wanted to use Atom (founded by GitHub) or Brackets (founded by Adobe) as my text editor of choice when customizing my Jekyll blog, which was created by GitHub co-founder Tom Werner-Preston. Even though Atom was founded by GitHub, Brackets was the one to win a home on my dock. It&amp;#39;s easy to use from the get-go, especially for someone that&amp;#39;s more accustomed to WYSIWYG editors than text editors. &lt;/p&gt;
+
+&lt;p&gt;I was able to download a Git extension and connect to my &lt;del&gt;GitHub&lt;/del&gt; BitBucket[^1] account to make commits and git push directly from Brackets without a hitch. I wasn&amp;#39;t able to figure it out as easily with Atom. &lt;/p&gt;
+
+&lt;p&gt;One of my favorite features of Bracket is the ability to preview CSS Hex colors and images by hovering over the code. You can tell from the little things that Brackets is a text editor designed with the designer in mind.&lt;/p&gt;
+
+&lt;p&gt;[^1] I&amp;#39;ve since changed my workflow to BitBucket + Wercker + Amazon S3 + CloudFront.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 30 Apr 2015 19:00:52 -0400</pubDate>
+        <link>http://www.uxjulia.com/2015/04/30/brackets-text-editor.html</link>
+        <guid isPermaLink="true">http://www.uxjulia.com/2015/04/30/brackets-text-editor.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>The Apple Watch App Sucks</title>
         <description>&lt;p&gt;Questions for the developers:&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Why can’t I uninstall / disable an app from the “App Layout” menu?&lt;/strong&gt;
+&lt;p&gt;&lt;strong&gt;Why can&amp;#39;t I uninstall / disable an app from the &amp;quot;App Layout&amp;quot; menu?&lt;/strong&gt;
 This is the equivalent to the iPhone’s “Home” screen and yet it doesn’t follow the same removal logic. &lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Why is there no indication whether or not an app is installed / enabled on my watch from the list of available apps?&lt;/strong&gt;
@@ -32,24 +51,27 @@ WHY!?!?&lt;/p&gt;
     
       <item>
         <title>The Apple Watch</title>
-        <description>&lt;p&gt;So the first batch of Apple Watches were shipped out this week and I just got mine today. I promptly put it on, adjusted the settings and installed my apps that have a Watch counterpart. For the most part, the size of the Watch makes many apps pretty useless in my opinion. The only apps that truly seem to have any use are the reference apps like weather, calendar or apps that allow remote control like Apple Remote, music control&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; or &lt;a href=&quot;www.knocktounlock.com&quot;&gt;Knock&lt;/a&gt;. Everything else is just too difficult to really be useful on such a tiny screen.&lt;/p&gt;
+        <description>&lt;p&gt;So the first batch of Apple Watches were shipped out this week and I just got mine today. I promptly put it on, adjusted the settings and installed my apps that have a Watch counterpart. For the most part, the size of the Watch makes many apps pretty useless in my opinion. The only apps that truly seem to have any use are the reference apps like weather, calendar or apps that allow remote control like Apple Remote, music control&lt;sup id=&quot;fnref1&quot;&gt;&lt;a href=&quot;#fn1&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; or &lt;a href=&quot;www.knocktounlock.com&quot;&gt;Knock&lt;/a&gt;. Everything else is just too difficult to really be useful on such a tiny screen.&lt;/p&gt;
 
-&lt;p&gt;I’ve only had the watch for a few hours now but I can list a few things so far that I like:&lt;/p&gt;
+&lt;p&gt;I&amp;#39;ve only had the watch for a few hours now but I can list a few things so far that I like:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Heartbeat monitor&lt;/strong&gt;: I’ve always wanted an activity monitor that had a built in heartbeat monitor, and now I have one!&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Raised wrist detection&lt;/strong&gt;: The motion sensor has been working flawlessly to display the watch face when I raise my wrist.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;iPhone Camera control functionality&lt;/strong&gt;: There is pretty visible latency between the watch and iPhone’s camera display, but this will come in handy as a remote should the need ever arise. Hopefully a software update in the future will improve this.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Apple TV Remote&lt;/strong&gt; This will certainly come in handy when I’m too lazy to get up to find the actual remote. &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;The Sport band&lt;/strong&gt; I’ve had way more activity monitors that came with a similar “sport” band, but none are as luxurious as Apple’s. I have fairly small wrists but this band fits me perfectly, with a couple of notches left over. I also really like how the end of the band tucks in so that it won’t catch onto anything when you’re out doing sporty things with your sport band. &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Heartbeat monitor&lt;/strong&gt;: I&amp;#39;ve always wanted an activity monitor that had a built in heartbeat monitor, and now I have one!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raised wrist detection&lt;/strong&gt;: The motion sensor has been working flawlessly to display the watch face when I raise my wrist.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;iPhone Camera control functionality&lt;/strong&gt;: There is pretty visible latency between the watch and iPhone&amp;#39;s camera display, but this will come in handy as a remote should the need ever arise. Hopefully a software update in the future will improve this.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Apple TV Remote&lt;/strong&gt; This will certainly come in handy when I&amp;#39;m too lazy to get up to find the actual remote. &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The Sport band&lt;/strong&gt; I&amp;#39;ve had way more activity monitors that came with a similar &amp;quot;sport&amp;quot; band, but none are as luxurious as Apple&amp;#39;s. I have fairly small wrists but this band fits me perfectly, with a couple of notches left over. I also really like how the end of the band tucks in so that it won&amp;#39;t catch onto anything when you&amp;#39;re out doing sporty things with your sport band. &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;Why hasn’t Spotify released an Apple Watch app yet? &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+
+&lt;li id=&quot;fn1&quot;&gt;
+&lt;p&gt;Why hasn&amp;#39;t Spotify released an Apple Watch app yet?&amp;nbsp;&lt;a href=&quot;#fnref1&quot; rev=&quot;footnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;/ol&gt;
 &lt;/div&gt;
 </description>
         <pubDate>Fri, 24 Apr 2015 17:26:52 -0400</pubDate>
@@ -80,13 +102,13 @@ WHY!?!?&lt;/p&gt;
     
       <item>
         <title>Clamcase Pro for iPad Mini</title>
-        <description>&lt;p&gt;So I did it. I went and bought the Clamcase Pro for iPad Mini. I had been looking at it for the past few days. Maybe it was only a day… Whatever, it felt like days. And, of course, the cookies in my browser allowed Clamcase to target ads towards me from that point on, never letting me forget that I once contemplated their product for purchase.&lt;/p&gt;
+        <description>&lt;p&gt;So I did it. I went and bought the Clamcase Pro for iPad Mini. I had been looking at it for the past few days. Maybe it was only a day... Whatever, it felt like days. And, of course, the cookies in my browser allowed Clamcase to target ads towards me from that point on, never letting me forget that I once contemplated their product for purchase.&lt;/p&gt;
 
-&lt;p&gt;I tried to stay away, researching alternatives and asking myself, “Do I truly need a keyboard that costs 1/3 of the price of the device it is attaching itself to?”I tried to stay away, but the beautifully designed keyboard, high-res product photos and those damn targeted ads just kept pulling me back.&lt;/p&gt;
+&lt;p&gt;I tried to stay away, researching alternatives and asking myself, &amp;quot;Do I truly need a keyboard that costs 1/3 of the price of the device it is attaching itself to?&amp;quot;I tried to stay away, but the beautifully designed keyboard, high-res product photos and those damn targeted ads just kept pulling me back.&lt;/p&gt;
 
-&lt;p&gt;Eventually, the Clamcase website offered me a coupon code for signing up for their newsletter, which would bring down the cost by $20. The temptation to purchase had never been higher. I decided to look up some video reviews to see how it looks in motion and to get a better size comparison. Or perhaps I just wanted a little bit more of a nudge to convince myself that I should buy it. In any case, after a few videos I decided to go for it. If I’m gonna get another keyboard, I’m gonna get one of the best ones out there.&lt;/p&gt;
+&lt;p&gt;Eventually, the Clamcase website offered me a coupon code for signing up for their newsletter, which would bring down the cost by $20. The temptation to purchase had never been higher. I decided to look up some video reviews to see how it looks in motion and to get a better size comparison. Or perhaps I just wanted a little bit more of a nudge to convince myself that I should buy it. In any case, after a few videos I decided to go for it. If I&amp;#39;m gonna get another keyboard, I&amp;#39;m gonna get one of the best ones out there.&lt;/p&gt;
 
-&lt;p&gt;I now await its arrival, which should be within the next 3-5 days. Today though, another keyboard splurge of mine arrives. The CODE Mechanical Keyboard. I don’t know how it happened, but suddenly I’m a keyboard enthusiast.&lt;/p&gt;
+&lt;p&gt;I now await its arrival, which should be within the next 3-5 days. Today though, another keyboard splurge of mine arrives. The CODE Mechanical Keyboard. I don&amp;#39;t know how it happened, but suddenly I&amp;#39;m a keyboard enthusiast.&lt;/p&gt;
 </description>
         <pubDate>Mon, 06 Apr 2015 13:58:00 -0400</pubDate>
         <link>http://www.uxjulia.com/gadgets/2015/04/06/Clamcase-Pro-for-iPad-Mini.html</link>
