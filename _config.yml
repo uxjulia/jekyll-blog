@@ -1,5 +1,7 @@
 # Build settings
-markdown: kramdown
+markdown: redcarpet
+redcarpet:
+    extensions: ["strikethrough"]
 highlighter: pygments
 gems:
   - jemoji
@@ -64,7 +66,7 @@ social:
 defaults:
    -
     scope:
-        path: ""
+        path: "_posts"
         type: "posts"
     values:
         layout: "post"
