@@ -1,5 +1,10 @@
 # Build settings
 markdown: redcarpet
+<<<<<<< HEAD
+=======
+redcarpet:
+    extensions: ["strikethrough"]
+>>>>>>> ae096ec84cd7708afe8d97ae54097d073e4df263
 highlighter: pygments
 redcarpet:
     extensions: ["strikethrough", "superscript", "footnote"]
@@ -66,7 +71,7 @@ social:
 defaults:
    -
     scope:
-        path: ""
+        path: "_posts"
         type: "posts"
     values:
         layout: "post"

@@ -2,7 +2,8 @@ box: wercker/ruby
 build:
     steps:
         # Run smart version of bundle install
-        - bundle-install
+        - wercker/bundle-install@1.1.2
+        - wercker/bundle-package@0.0.3
         # Run Jekyll doctor
         - script:
             name: Run Jekyll doctor
