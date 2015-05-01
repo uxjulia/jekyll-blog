@@ -5,6 +5,8 @@ permalink: /about/
 <h2>Hello.</h2>
 I'm Julia. I'm a user experience analyst and I have an affinity for gadgets, tinkering, and design.
 <br><br><br>
+<!-- Currently Reading -->
+
 <div class="bottom-teaser cf">
     <div class="isLeft-misc">
         <h5 class="index-hline"><span>CURRENTLY READING</span></h5>
@@ -33,7 +35,7 @@ I'm Julia. I'm a user experience analyst and I have an affinity for gadgets, tin
         <h5 class="index-hline"><span>CURRENTLY PLAYING</span></h5>
          {% for game in site.data.games %}
         <section class="book-title">
-            <a href="http://1010ga.me">{{ game.title }}</a>
+            <a href="{{ game.website }}">{{ game.title }}</a>
         </section>
         <section class="comments">
             {{ game.comment }}
@@ -45,3 +47,18 @@ I'm Julia. I'm a user experience analyst and I have an affinity for gadgets, tin
     </div>
 </div>
 
+<!-- Cool Apps -->
+<hr>
+<div class="bottom-teaser cf">
+    <div class="spotlight">
+       <h5 class="index-hline"><span>SPOTLIGHT</span></h5>
+        {% for spotlight in site.data.spotlight %}
+        <section class="book-title">
+            <a href="{{ spotlight.website }}">{{ spotlight.item }}</a>
+        </section>
+        <section class="comments">
+            {{ spotlight.description }}
+            <br><br>
+        {% endfor %}
+        </section>
+</div>
