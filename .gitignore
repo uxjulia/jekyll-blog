@@ -4,4 +4,4 @@
 .sync/ID
 .sync/StreamsList
 .sync/IgnoreList
-_site/
+_site/*
