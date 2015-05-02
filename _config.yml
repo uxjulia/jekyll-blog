@@ -11,8 +11,7 @@ future: false
 # Site settings
 title: "THE CRUMPLED LOGARITHM"
 description: > # this means to ignore newlines until "email:"
-  A Personal Blog
-
+  A personal blog about tech, gadgets, experience design and ..whatever
 email: hi@uxjulia.com
 #blog logo
 logo: "/assets/images/jn_logo.png"
