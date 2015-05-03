@@ -12,4 +12,4 @@ I was able to download a Git extension and connect to my ~~GitHub~~ BitBucket[^1
 One of my favorite features of Bracket is the ability to preview CSS Hex colors and images by hovering over the code. You can tell from the little things that Brackets is a text editor designed with the designer in mind.
 
 
-[^1] I've since changed my workflow to BitBucket + Wercker + Amazon S3 + CloudFront.
+[^1]: I've since changed my workflow to BitBucket + Wercker + Amazon S3 + CloudFront.
