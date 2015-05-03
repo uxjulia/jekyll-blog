@@ -1,7 +1,7 @@
 ---
 type: post
+title: Ulysses for iPad
 ---
-#Ulysses for iPad
 I bought Ulysses because of all the great reviews out there so my expectations coming into this were high. I simultaneously bought it for my Mac and dove in, even going so far as actually reading through the entire tutorial. 
 
 While I do find the writing experience good and the organizational structure helpful, I  feel it's slightly overhyped, the biggest painpoint for me thus fur (and I'm sure for many others as well) has been the complete uselessness of iCloud Sync. 
