@@ -1,7 +1,5 @@
 # Build settings
 markdown: redcarpet
-redcarpet:
-    extensions: ["strikethrough"]
 highlighter: pygments
 redcarpet:
   extensions: ["strikethrough", "superscript", "footnote"]
