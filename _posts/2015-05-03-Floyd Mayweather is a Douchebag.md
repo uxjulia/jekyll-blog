@@ -2,7 +2,7 @@
 title: Floyd Mayweather is a Douchebag
 type: post
 ---
-##### Disclaimer : I am not a boxing aficionado, nor do I claim to be. I readily admit that I am a bandwagon boxing “fan” and only watch enough to form a biased opinion. The following is based on that biased opinion. (As is everything else on this site).
+##### Disclaimer: I am not a boxing aficionado, nor do I claim to be. I readily admit that I am a bandwagon boxing “fan” and only watch enough to form a biased opinion. The following is based on that biased opinion. (As is everything else on this site).
 
 When it comes to celebrities, athletes, and public figures their image is well crafted[^1] by a team of publicists, managers, promoters and the like. We see what they want us to see.[^2] Our limited view is the public-facing life they are willing to put out there. We regular-folk do this too. Just visit anyone’s Facebook, LinkedIn, or Instagram account. 
 
