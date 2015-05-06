@@ -1,6 +1,11 @@
 ---
 type: post
 title: Ulysses for iPad
+tags:
+ - ulysses
+ - ipad
+ - ios
+ - app
 ---
 I bought Ulysses because of all the great reviews out there so my expectations coming into this were high. I simultaneously bought it for my Mac and dove in, even going so far as actually reading through the entire tutorial. 
 

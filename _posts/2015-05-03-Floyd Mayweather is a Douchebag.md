@@ -1,6 +1,8 @@
 ---
 title: Floyd Mayweather is a Douchebag
 type: post
+tags:
+ - sports
 ---
 ##### Disclaimer: I am not a boxing aficionado, nor do I claim to be. I readily admit that I am a bandwagon boxing “fan” and only watch enough to form a biased opinion. The following is based on that biased opinion. (As is everything else on this site).
 
