@@ -49,6 +49,9 @@
           <a name="topofpage"></a>
           {{content}}
         </section>
+
+        <!-- Start Footer -->
+
         <footer class="post-footer">
           <section class="share">
             {% for social in site.social %}
@@ -61,12 +64,26 @@
             {% endfor %}
           </section>
         </footer>
-        <div class="bottom-teaser cf">
-          <div class="isLeft">
+              <div class="bottom-teaser cf">
+               <section class="related-posts">
+                     <p class="title">Read More</p>
+                      <hr>
+                       <p class="related-posts">
+                           {% for post in site.related_posts %}
+                              <ul>
+                               <li>
+                               <a href="{{ post.url }}">{{ post.title }}</a><br />
+                               </li>
+                               </ul>
+                            {% endfor %}
+                            </section>
+
+           <!--
+           <div class="isLeft">
             <h5 class="index-headline featured"><span>Written by</span></h5>
             <section class="author">
-              <!--<div class="author-image" style="background-image: url({{site.author_image}})">Blog Logo</div>-->
-              <h4>{{ site.author }}</h4>
+              <div class="author-image" style="background-image: url({{site.author_image}})">Blog Logo</div>
+            <h4>{{ site.author }}</h4>
               <p class="bio">{{author.bio}}</p>
               <hr>
               <p class="published">Published <time datetime="{{ page.date | date: "%F %R" }}">{{ page.date | date_to_string }}</time></p>
@@ -79,17 +96,18 @@
               <section class="poweredby">{{ site.description }}</section>
               <a class="subscribe" href="{{ "/feed.xml" | prepend: site.baseurl }}"> <span class="tooltip"> <i class="fa fa-rss"></i> Subscribe</span></a>
               <div class="inner"><br>
-               <!-- <section class="copyright">All content copyright <a href="{{@blog.url}}/">{{site.author}}</a> &copy; {{ site.time | date: '%Y' }}<br>All rights reserved.</section> -->
-              </div>
+                <section class="copyright">All content copyright <a href="{{@blog.url}}/">{{site.author}}</a> &copy; {{ site.time | date: '%Y' }}<br>All rights reserved.</section>
+            </div>
             </footer>
           </div>
+          -->
         </div>
       </article>
     </main>
     <div class="bottom-closer">
-      <!--<div class="background-closer-image" {%if site.cover %} style="background-image: url({{ site.cover }})"{% endif %}>
+      <div class="background-closer-image" {%if site.cover %} style="background-image: url({{ site.bgimg }})"{% endif %}>
         Image
-      </div> -->
+      </div>
       <div class="inner">
         <a href="/" class="btn">Home</a>
       </div>
