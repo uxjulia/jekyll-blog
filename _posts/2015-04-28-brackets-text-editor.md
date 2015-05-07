@@ -2,6 +2,11 @@
 type: post
 date: "2015-04-28 13:05:30"
 title: Brackets Text Editor
+tags:
+ - dev
+ - text-editor
+ - apps
+ - writing-apps
 ---
 I've been using Brackets to make HTML and CSS changes to my blog and I'm finding that I'm liking it more and more each day. It falls into the same family of text editors such as Sublime, Atom and TextMate. If you're familiar with those then you'll know exactly the market segment Brackets is geared for. 
 

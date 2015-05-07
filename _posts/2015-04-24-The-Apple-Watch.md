@@ -2,7 +2,10 @@
 type: post
 date: "2015-04-24 17:26:52"
 title: The Apple Watch
-image: /assets/images/apple-watch3.jpg
+tags:
+ - apple
+ - apple-watch
+ - gadgets
 ---
 So the first batch of Apple Watches were shipped out this week and I just got mine today. I promptly put it on, adjusted the settings and installed my apps that have a Watch counterpart. For the most part, the size of the Watch makes many apps pretty useless in my opinion. The only apps that truly seem to have any use are the reference apps like weather, calendar or apps that allow remote control like Apple Remote, music control[^1] or [Knock](www.knocktounlock.com). Everything else is just too difficult to really be useful on such a tiny screen.
 
