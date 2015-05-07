@@ -11,7 +11,7 @@
 $rs: 16px
 
 $font-serif: Gilda Display, Linux Libertine
-$font-sans: Lato, Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif
+$font-sans: "proxima-nova", Lato, Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif
 
 
 @mixin respond-to($breakpoint)
@@ -139,7 +139,7 @@ body
     &:last-child
       border-bottom: 0px
     .post-title
-      // letter-spacing: -0.02em
+      letter-spacing: -0.02em
       font-weight: 400
       font-style: normal
       display: block
@@ -276,7 +276,7 @@ body
     .post-title
       font-weight: 700
       font-style: normal
-      letter-spacing: -0.04em
+      letter-spacing: -0.02em
       font-size: 50px
       line-height: 1.1
       color: #fff
@@ -325,7 +325,7 @@ body
     .post-title
       font-weight: 700
       font-style: normal
-      letter-spacing: -0.04em
+      letter-spacing: -0.02em
       font-size: 40px
       line-height: 1.1
       color: #333332
@@ -544,10 +544,10 @@ body
       padding: 0
       font-weight: 400
       font-style: normal
-      font-size: 22px
-      line-height: 1.1
+      font-size: 1.2em
+      line-height: 1.5
       margin-left: 30px
-      // margin-bottom: 12px
+      margin-bottom: 12px
       padding-top: 2px
       p
         padding: 0 0 golden-ratio(1rem,  1)
@@ -580,6 +580,21 @@ body
       margin: 16px 0 16px 0px
       border: 0px solid #ddd
       border-top: 1px solid #ddd
+    .related-posts
+      font-family: $font-sans
+      .title
+        font-weight: 400
+        color: #a9a9a9
+        text-transform: uppercase
+      p
+        color: #666
+        font-size: 1em
+        font-weight: 300
+      a
+        color: #333
+        text-decoration: none
+        &:hover
+          text-decoration: underline
     .spotlight
       font-family: $font-serif
     .isLeft
@@ -629,6 +644,11 @@ body
       width: 48%
       @include respond-to(800)
         width: 100%
+      a
+        color: #333
+        text-decoration: none
+        &:hover
+          text-decoration: underline
       .book-title
         font-size: 20px
         color: #666
@@ -714,6 +734,7 @@ body
     left: 0
     right: 0
     bottom: 0
+    background-color: #cacaca
     text-indent: -9999px
     background-size: cover
     background-repeat: no-repeat
@@ -767,11 +788,11 @@ body
       text-decoration: none
       cursor: pointer
       height: 44px
-      background: #4C4C4C
-      color: #fff
+      background: #fff
+      color: #000
       vertical-align: middle
       box-sizing: border-box
-      // border-radius: 999em
+      border-radius: 444em
       line-height: 44px
       padding: 0 18px
 
