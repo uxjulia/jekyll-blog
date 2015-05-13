@@ -12,7 +12,7 @@ I'm Julia. I'm a user experience analyst and I have an affinity for gadgets, tin
         <h5 class="index-hline"><span>CURRENTLY READING</span></h5>
          {% for book in site.data.reading %}
         <section class="book-title">
-            {{ book.title }}
+            <a href="{{ book.link }}">{{ book.title }}</a>
         </section>
         <section class="book-author">
             by {{ book.author }}
@@ -38,12 +38,12 @@ I'm Julia. I'm a user experience analyst and I have an affinity for gadgets, tin
             <a href="{{ game.website }}">{{ game.title }}</a>
         </section>
         <section class="comments">
-            {{ game.comment }}
+            {{ game.comment }}<br><br><br>
             {% endfor %}
         </section>
     </div>
     <div class="isRight-misc">
-        <img src="{{ site.game }}" | prepend: site.baseurl }}>
+        <img width="175" height="175" src="{{ site.game }}" | prepend: site.baseurl }}>
     </div>
 </div>
 

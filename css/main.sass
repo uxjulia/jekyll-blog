@@ -597,6 +597,8 @@ body
           text-decoration: underline
     .spotlight
       font-family: $font-serif
+      .comments
+        margin-top: 15px
     .isLeft
       float: left
       width: 47%
@@ -659,12 +661,23 @@ body
         margin-top: 15px
         .index-headline-misc
           padding-bottom: 32px
+    .artwork
+      float: right
+      width: 48%
+      @include box-sizing(border-box)
+      @include respond-to(800)
+        width: 100%
+      zoom: 1
+      position: relative
+
     .isRight-misc
       float: right
       width: 48%
       @include box-sizing(border-box)
       @include respond-to(800)
         width: 100%
+      img
+        padding-top: 40px
       .comments
         padding-top: 15px
       .index-headline
