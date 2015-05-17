@@ -2,6 +2,10 @@
 type: post
 date: "2015-04-25 23:50:07"
 title: The Apple Watch App Sucks
+tags:
+ - apps
+ - apple
+ - apple-watch
 ---
 Questions for the developers:
 

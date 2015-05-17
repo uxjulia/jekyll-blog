@@ -1,5 +1,9 @@
 ---
 categories: Websites
+type: post
+tags:
+ - writing-apps
+ - websites
 ---
 I’m frequently asked to proofread people’s writing, whether it be a resume, an essay or an email. While there is software out there that comes with change tracking, they don’t incorporate it with version control and collaboration in a way that’s easy to use and straightforward enough for the less than tech-savvy.
 

@@ -11,7 +11,7 @@
 $rs: 16px
 
 $font-serif: Gilda Display, Linux Libertine
-$font-sans: Lato, Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif
+$font-sans: "proxima-nova", Lato, Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif
 
 
 @mixin respond-to($breakpoint)
@@ -102,8 +102,8 @@ body
     padding: $rs*5.25 $rs $rs/2
     font-size: 40px
     text-align: center
-    font-weight: 300
-    letter-spacing: -2px
+    font-weight: 200
+    letter-spacing: 3px
     outline: 0
     line-height: 50px
     word-break: break-word
@@ -140,7 +140,7 @@ body
       border-bottom: 0px
     .post-title
       letter-spacing: -0.02em
-      font-weight: 700
+      font-weight: 400
       font-style: normal
       display: block
       font-size: 28px
@@ -158,7 +158,7 @@ body
       font-style: normal
       text-align: justify
       font-size: 20px
-      line-height: 1.2
+      line-height: 1.4
       color: #666665
     .post-meta
       font-size: 14px
@@ -276,7 +276,7 @@ body
     .post-title
       font-weight: 700
       font-style: normal
-      letter-spacing: -0.04em
+      letter-spacing: -0.02em
       font-size: 50px
       line-height: 1.1
       color: #fff
@@ -325,7 +325,7 @@ body
     .post-title
       font-weight: 700
       font-style: normal
-      letter-spacing: -0.04em
+      letter-spacing: -0.02em
       font-size: 40px
       line-height: 1.1
       color: #333332
@@ -393,9 +393,9 @@ body
     a
       color: #333
       text-decoration: none
+      font-size: 20px
     img
-      margin-left: auto
-      margin-right: auto
+      float: right
     figure
       margin: 0
       padding: 0 0 30px
@@ -453,11 +453,12 @@ body
   .post-content
     width: 100%
     text-align: justify
+    word-break: break-word
     font-family: $font-serif
     color: #333
     h1, h2, h3
       font-family: $font-sans
-    h3, h4, h5, h6
+    h3, h4
       letter-spacing: -0.02em
       font-weight: 700
       font-style: normal
@@ -466,6 +467,16 @@ body
       margin: 0
       font-family: $font-sans
       margin-bottom: 4px
+    h5, h6
+      letter-spacing: -0.02em
+      font-weight: 400
+      font-style: italic
+      color: #a9a9a9
+      font-size: 14px
+      line-height: 1.3
+      margin: 0
+      font-family: $font-sans
+      margin-bottom: 40px
     h2, h1
       letter-spacing: -0.02em
       font-weight: 700
@@ -474,11 +485,13 @@ body
       line-height: 1.2
       padding-top: 31px
       margin-bottom: 4px
+    sup
+      font-size: 12px
     p
       font-weight: 400
       font-style: normal
-      font-size: 22px
-      line-height: 30px
+      font-size: 1.2em
+      line-height: 1.5
       margin: 0
       padding-bottom: 30px
       color: #333
@@ -507,7 +520,7 @@ body
       border: 0
       padding: 0
       display: block
-      width: 15%
+      width: 20%
       margin: 30px auto
       border: 0px solid #ddd
       border-top: 1px solid #ddd
@@ -531,8 +544,8 @@ body
       padding: 0
       font-weight: 400
       font-style: normal
-      font-size: 22px
-      line-height: 30px
+      font-size: 1.2em
+      line-height: 1.5
       margin-left: 30px
       margin-bottom: 12px
       padding-top: 2px
@@ -546,18 +559,18 @@ body
       font-size: 18px
       vertical-align: top
     .footnotes
-      padding-top: 40px
+      // padding-top: 40px
       color: #A9A9A9
       p
-        font-size: $rs/8*6
+        font-size: $rs/8*5
         color: #A9A9A9
         font-family: $font-sans
         text-transform: uppercase
       li
-        font-size: $rs/8*6
+        font-size: $rs/8*5
         font-family: $font-sans
   .bottom-teaser
-    padding: 50px 0
+    padding: 35px 0
     font-family: $font-sans
     hr
       border: 0
@@ -567,6 +580,25 @@ body
       margin: 16px 0 16px 0px
       border: 0px solid #ddd
       border-top: 1px solid #ddd
+    .related-posts
+      font-family: $font-sans
+      .title
+        font-weight: 400
+        color: #a9a9a9
+        text-transform: uppercase
+      p
+        color: #666
+        font-size: 1em
+        font-weight: 300
+      a
+        color: #333
+        text-decoration: none
+        &:hover
+          text-decoration: underline
+    .spotlight
+      font-family: $font-serif
+      .comments
+        margin-top: 15px
     .isLeft
       float: left
       width: 47%
@@ -614,6 +646,11 @@ body
       width: 48%
       @include respond-to(800)
         width: 100%
+      a
+        color: #333
+        text-decoration: none
+        &:hover
+          text-decoration: underline
       .book-title
         font-size: 20px
         color: #666
@@ -621,15 +658,26 @@ body
         font-size: 16px
         color: #ccc
       .comments
-        padding-top: 15px
+        margin-top: 15px
         .index-headline-misc
           padding-bottom: 32px
+    .artwork
+      float: right
+      width: 48%
+      @include box-sizing(border-box)
+      @include respond-to(800)
+        width: 100%
+      zoom: 1
+      position: relative
+
     .isRight-misc
       float: right
       width: 48%
       @include box-sizing(border-box)
       @include respond-to(800)
         width: 100%
+      img
+        padding-top: 40px
       .comments
         padding-top: 15px
       .index-headline
@@ -699,6 +747,7 @@ body
     left: 0
     right: 0
     bottom: 0
+    background-color: #cacaca
     text-indent: -9999px
     background-size: cover
     background-repeat: no-repeat
@@ -752,11 +801,11 @@ body
       text-decoration: none
       cursor: pointer
       height: 44px
-      background: #4C4C4C
-      color: #fff
+      background: #fff
+      color: #000
       vertical-align: middle
       box-sizing: border-box
-      // border-radius: 999em
+      border-radius: 444em
       line-height: 44px
       padding: 0 18px
 
