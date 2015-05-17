@@ -1,14 +1,17 @@
 # Build settings
-markdown: kramdown
+markdown: redcarpet
 highlighter: pygments
+redcarpet:
+  extensions: ["strikethrough", "footnotes"]
 gems:
   - jemoji
 
-# Site settings
-title: "THE CRUMPLED LOGARITHM"
-description: > # this means to ignore newlines until "email:"
-   Personal ramblings about technology, gadgets and experience design.
+future: false
 
+# Site settings
+title: "JVLIA"
+description: > # this means to ignore newlines until "email:"
+  A personal blog about tech, gadgets, experience design and ...whatever
 email: hi@uxjulia.com
 #blog logo
 logo: "/assets/images/jn_logo.png"
@@ -18,6 +21,7 @@ cover: "/assets/images/bg.jpg"
 #images for use on the "currently" page
 book: "/assets/images/books/book1.jpg"
 game: "/assets/images/games/game1.png"
+bgimg: "/assets/images/bg-img.jpg"
 
 name: 'Julia Nguyen'
 author: 'Julia N.'
@@ -66,3 +70,5 @@ defaults:
         type: "posts"
     values:
         layout: "post"
+
+exlude: [ "gemfile", "gemfile.lock", "Rakefile", "publish.*" ]
