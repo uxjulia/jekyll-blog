@@ -4,7 +4,7 @@ title: "A Rant: Clamcase's Shitty Warranty"
 image: /assets/images/clamcase.jpg
 tags:
 - clamcase
-- iPad
+- ipad
 - accessories
 - keyboard
 ---
