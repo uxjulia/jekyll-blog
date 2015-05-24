@@ -1,7 +1,6 @@
 ---
 type: post
 title: "A Rant: Clamcase's Shitty Warranty"
-image: /assets/images/clamcase.jpg
 tags:
 - clamcase
 - ipad
