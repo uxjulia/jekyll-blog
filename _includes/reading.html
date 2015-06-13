@@ -1,0 +1,19 @@
+<div class="bottom-teaser cf">
+    <div class="isLeft-misc">
+        <h5 class="index-hline"><span>CURRENTLY READING</span></h5>
+         {% for book in site.data.reading %}
+        <section class="book-title">
+            <a href="{{ book.link }}">{{ book.title }}</a>
+        </section>
+        <section class="book-author">
+            by {{ book.author }}
+        </section>
+        <section class="comments">
+            {{ book.comments }}
+            {% endfor %}
+        </section>
+    </div>
+    <div class="isRight-misc">
+        <img src="{{ site.book }}" | prepend: site.baseurl }}>
+    </div>
+</div>
