@@ -29,23 +29,7 @@ I'm Julia. I'm a user experience analyst and I have an affinity for gadgets, tin
 
 <!-- Games -->
 <hr>
-
-<div class="bottom-teaser cf">
-    <div class="isLeft-misc">
-        <h5 class="index-hline"><span>CURRENTLY PLAYING</span></h5>
-         {% for game in site.data.games %}
-        <section class="book-title">
-            <a href="{{ game.website }}">{{ game.title }}</a>
-        </section>
-        <section class="comments">
-            {{ game.comment }}<br><br><br>
-            {% endfor %}
-        </section>
-    </div>
-    <div class="isRight-misc">
-        <img width="175" height="175" src="{{ site.game }}" | prepend: site.baseurl }}>
-    </div>
-</div>
+{% include playing.html %}
 
 <!-- Cool Apps -->
 <hr>
