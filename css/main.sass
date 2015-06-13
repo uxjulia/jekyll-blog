@@ -391,11 +391,9 @@ body
       -moz-hyphens: auto
       hyphens: auto
     a
-      color: #333
+      color: #4D6C8C
       text-decoration: none
-      font-size: 20px
-    img
-      float: right
+      //font-size: 20px
     figure
       margin: 0
       padding: 0 0 30px
@@ -640,7 +638,7 @@ body
         &.published
           color: #999
     .isLeft-misc
-      float: left
+      float: right
       margin-left: auto
       font-family: $font-serif
       margin-right: auto
@@ -648,7 +646,7 @@ body
       @include respond-to(800)
         width: 100%
       a
-        color: #333
+        color: #5A789F
         text-decoration: none
         &:hover
           text-decoration: underline
@@ -671,15 +669,24 @@ body
         width: 100%
       zoom: 1
       position: relative
-
     .isRight-misc
-      float: right
+      float: left
+      position: relative
+      margin-top: 40px
       width: 48%
       @include box-sizing(border-box)
       @include respond-to(800)
         width: 100%
-      img
-        padding-top: 40px
+      .img
+        //float: right
+        //padding-top: 40px
+        width: 175px
+        height: 175px
+        z-index: 0
+        //position: absolute
+        zoom: 1
+      //span
+        //float: right
       .comments
         padding-top: 15px
       .index-headline
@@ -833,3 +840,27 @@ pre
     border: 0
     padding-right: 0
     padding-left: 0
+
+.mask
+  display: block
+  top: 0
+  left: 0
+  position: absolute
+  margin-right: 0
+  z-index: 1
+  width: 177px
+  height: 177px
+  background: url(/assets/images/mask175.png) 0 0 no-repeat
+  background-size: 175px 175px
+
+.mask-nb
+  display: block
+  top: 0
+  left: 0
+  position: absolute
+  margin-right: 0
+  z-index: 1
+  width: 177px
+  height: 177px
+  background: url(/assets/images/mask175nb.png) 0 0 no-repeat
+  background-size: 175px 175px
