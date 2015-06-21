@@ -1,6 +1,8 @@
 ---
 type: post
-title: "Wireframing with Office Supplies: Post-It Notes"
+layout: post
+title: "Rapid Prototyping with Post-It Notes"
+tagline: 
 tags:
 - UX
 - Mockups
