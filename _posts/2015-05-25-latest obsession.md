@@ -32,4 +32,4 @@ For its relatively low price, I like that it comes with a premium aluminum base 
 The interchangeable LEDs are a nice touch, the ABS keycaps suck. The fn-layer layout is thoughtfully placed.
 
 #### CODE
-The white LEDs are nice. This is the only full size keyboard I bought because I do like my numpad, but I felt one full-size board was enough. The board has a very apparent ping upon upstroke of the stock ABS keys. It's insanely annoying and makes the board \<s\>feel\</s\> sound cheap. Replacing the ABS keys with PBT keys has reduced this.
+The white LEDs are nice. This is the only full size keyboard I bought because I do like my numpad, but I felt one full-size board was enough. The board has a very apparent ping upon upstroke of the stock ABS keys. It's insanely annoying and makes the board <s>feel</s> sound cheap. Replacing the ABS keys with PBT keys has reduced this.
