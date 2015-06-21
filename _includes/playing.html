@@ -1,15 +1,19 @@
 <div class="bottom-teaser cf">
     <div class="isLeft-misc">
         <h5 class="index-hline"><span>CURRENTLY PLAYING</span></h5>
+        {% for games in site.data.games %}
         <section class="book-title">
-            <a href="http://threesgame.com/">THREES</a>
+            <a href="{{ games.itunesLink }}">{{ games.title }}</a>
         </section>
         <section class="comments">
-          Many of you may be familiar with 2048. Threes is the original that they ripped off of (and the way better version) that requires more strategy and skill to get a high score. I've been a fan of this game for awhile now, but they've recently released a free version so go and <a href="https://itunes.apple.com/us/app/threes%21/id779157948?mt=8">download</a> it now! It's even been <a href="http://threesjs.com/">ported to the web</a>!
+          {{ games.comment }}
         </section>
     </div>
-    <div class="isRight-misc">
-        <img width="175" height="175" src="/assets/images/games/threes.jpeg" | prepend: site.baseurl }} class="img">
-        <span class="mask"></span>
-    </div>
+     <div class="isRight-misc">
+      <img width="175" height="175" src="{{ games.image }}" | prepend: site.baseurl }} class="img">
+        <a href="{{ games.itunesLink }}">
+          <span class="mask"></span>
+        </a>
+        {% endfor %}
+      </div>
 </div>

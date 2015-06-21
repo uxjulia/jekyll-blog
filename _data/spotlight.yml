@@ -1,0 +1,8 @@
+---
+- name: "Undisclosed: The State vs. Adnan Syed"
+  website: http://www.undisclosed-podcast.com
+  url:
+  comment: "A podcast that takes a look at the murder of Hae-min Lee and the case brought upon her convicted killer, Adnan Syed, from a legal perspective. If you haven't heard Serial yet, I suggest you start by listening to that podcast first!"
+  image: /assets/images/spotlight/undisclosed.jpg
+  serial: "(Listen to Serial)"
+  serial-link: http://www.serialpodcast.org

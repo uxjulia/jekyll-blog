@@ -1,15 +1,22 @@
 <div class="bottom-teaser cf">
     <div class="isLeft-misc">
         <h5 class="index-hline"><span>SPOTLIGHT ON</span></h5>
+         {% for item in site.data.spotlight %}
         <section class="book-title">
-            <a href="http://undisclosed-podcast.com/">Undisclosed: The State vs. Adnan Syed</a>
+            <a href="{{ item.website }}">{{ item.name }}</a>
         </section>
         <section class="comments">
-            A podcast that takes a look at the murder of Hae-min Lee and the case brought upon her convicted killer, Adnan Syed, from a legal perspective. If you haven't heard <a href="http://serialpodcast.org">Serial</a> yet, I highly recommend listening to it first.
+            {{ item.comment }}
+        </section>
+        <section class="tagline"><br>
+         <a class="tagline" href="{{ item.serial-link }}">{{ item.serial }}</a>
         </section>
     </div>
     <div class="isRight-misc">
-        <img width="175" height="175" src="/assets/article-images/undisclosed.jpg" | prepend: site.baseurl }}>
+      <a href="{{ item.website }}">
+        <img width="175" height="175" src="{{ item.image }}" | prepend: site.baseurl }}>
         <span class="mask-nb"></span>
+      </a>
+        {% endfor %}
     </div>
 </div>

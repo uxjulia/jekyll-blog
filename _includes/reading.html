@@ -9,11 +9,13 @@
             by {{ book.author }}
         </section>
         <section class="comments">
-            {{ book.comments }}
-            {% endfor %}
+            {{ book.comment }}
         </section>
     </div>
     <div class="isRight-misc">
-        <img src="{{ site.book }}" | prepend: site.baseurl }}>
+        <a href="{{ book.link }}">
+          <img src="{{ book.img }}" | prepend: site.baseurl }}>
+        </a>
+        {% endfor %}
     </div>
 </div>
