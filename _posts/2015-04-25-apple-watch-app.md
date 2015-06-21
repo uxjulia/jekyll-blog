@@ -2,6 +2,7 @@
 type: post
 date: "2015-04-25 23:50:07"
 title: The Apple Watch App Sucks
+tagline: Usability issues galore
 tags:
  - apps
  - apple

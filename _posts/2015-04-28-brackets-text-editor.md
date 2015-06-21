@@ -2,6 +2,7 @@
 type: post
 date: "2015-04-28 13:05:30"
 title: Brackets Text Editor
+tagline: A modern open-source text editor
 tags:
  - dev
  - text-editor

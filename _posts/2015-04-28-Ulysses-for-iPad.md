@@ -1,6 +1,7 @@
 ---
 type: post
 title: Ulysses for iPad
+tagline: A great writing app with sync issues
 tags:
  - ulysses
  - ipad

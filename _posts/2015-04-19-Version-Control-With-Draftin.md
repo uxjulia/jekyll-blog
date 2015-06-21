@@ -1,6 +1,7 @@
 ---
 categories: Websites
 type: post
+tagline: A collaborative writing tool
 tags:
  - writing-apps
  - websites

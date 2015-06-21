@@ -1,6 +1,7 @@
 ---
 type: post
 title: "My latest obsession: Mechanical Keyboards"
+tagline: Gotta have them all!
 tags:
 - keyboards
 - mechanical

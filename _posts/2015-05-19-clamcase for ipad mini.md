@@ -1,6 +1,7 @@
 ---
 type: post
-title: "A Rant: Clamcase's Shitty Warranty"
+title: "Clamcase's Shitty Warranty"
+tagline: A rant 
 tags:
 - clamcase
 - ipad

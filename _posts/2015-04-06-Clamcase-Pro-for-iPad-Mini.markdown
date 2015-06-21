@@ -1,6 +1,7 @@
 ---
 type: post
 title:  Clamcase Pro for iPad Mini
+tagline: A fancy shmancy iPad keyboard
 date:   2015-04-06 13:58
 image: /assets/images/clamcase-ipad-mini.jpg
 tags:
