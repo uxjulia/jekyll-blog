@@ -14,6 +14,21 @@
     {% if site.logo %}
       <a class="blog-logo" href="{{site.url}}" style="background-image: url('{{ site.logo }}')">{{ site.title }}</a>
     {% endif %}
+    <h1 class="blog-title">{{ site.title }}</h1>
+    <h2 class="blog-description">{{ site.description }}</h2>
+    <div class="custom-links">
+      {% for social in site.social %}
+        {% if social.url %}
+            <a class="icon-{{ social.icon }}" href="{{ social.url }}">
+              <i class="fa fa-{{ social.icon }}"></i>
+            </a>
+            &nbsp;&nbsp;·&nbsp;&nbsp;
+        {% endif %}
+      {% endfor %}
+      <a href="/about/">About</a>
+      &nbsp;&nbsp;·&nbsp;&nbsp;
+      <a href="/archive/">Archive</a>
+    </div>
 </header>
     <main class="content" role="main">
       <article class="post">
@@ -34,18 +49,6 @@
           </div>
         </div>
         {% else %}
-        <div class="noarticleimage">
-          <div class="post-meta">
-            <h1 class="post-title">{{ page.title }}</h1>
-            <div class="cf post-meta-text">
-              <div class="author-image" style="background-image: url({{ page.author_image }})">Blog Logo</div>
-              <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person">{{ page.author }}</h4>
-            </div>
-          </div>
-        </div>
-        <br>
-        <br>
-        <br>
         {% endif %}
         <section class="about-page">
           <a name="topofpage"></a>
