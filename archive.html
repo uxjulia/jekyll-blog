@@ -3,14 +3,17 @@ layout: misc
 permalink: /archive/
 ---
 <div class="archive">
- <h1 class="archive" align="center">Post Archive</h1>
+ <h1 class="archive" align="center">Post Archive</h1><hr><br><br>
   <ul>
     {% for post in site.posts %}
       <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-        <section class="post-tagline">
-          <span>{{ post.tagline }}</span>
-        </section>
+        <div class="archive-post">
+          <a href="{{ post.url }}">{{ post.title }}</a> <span>{{ post.date | date_to_string }}</span>
+        </div>
+
+        <div class="tagline">
+          {{ post.tagline }}
+        </div>
       </li>
     {% endfor %}
   </ul>
