@@ -64,9 +64,9 @@ layout: default
             <header class="post-header">
               <h2 class="post-title" itemprop="name"><a href="{{ post.url }}" itemprop="url">{{ post.title }}</a></h2>
             </header>
-            <section class="post-tagline">
-              <span>{{ post.tagline }}</span>
-            </section>
+            <div class="tagline">
+              {{ post.tagline }}
+            </div>
             <section class="post-excerpt" itemprop="description">
               <p>{{ post.content | strip_html | truncatewords: 60 }}</p>
             </section>
