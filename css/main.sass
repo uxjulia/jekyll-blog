@@ -648,7 +648,7 @@ body
       @include respond-to(800)
         width: 100%
       a
-        color: #5A789F
+        //color: #5A789F
         text-decoration: none
         &:hover
           text-decoration: underline
@@ -656,6 +656,8 @@ body
         font-size: 20px
         color: #666
         font-family: $font-sans
+        a
+          color: #5A789F
       .book-author
         font-size: 18px
         color: #9D9D9D
@@ -664,6 +666,9 @@ body
         text-align: justify
         .index-headline-misc
           padding-bottom: 32px
+      .tagline
+        a
+          color: #A8A8A8
     .artwork
       float: right
       width: 48%
@@ -891,6 +896,7 @@ pre
     //line-height: 13px
 .tagline
   color: #b3b3b1
+  font-family: $font-sans
   font-size: 18px
   letter-spacing: 1px
   font-style: italic
