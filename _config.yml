@@ -67,8 +67,9 @@ defaults:
    -
     scope:
         path: ""
-        type: posts
+        type: "posts"
     values:
-        layout: post
+        layout: "post"
 
 exlude: [ "gemfile", "gemfile.lock", "Rakefile", "publish.*" ]
+keep: ["assets"]
