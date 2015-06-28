@@ -18,11 +18,6 @@ logo: "/assets/images/logo.png"
 # blog cover
 cover: "/assets/images/bg.jpg"
 
-#images for use on the "currently" page
-book: "/assets/images/books/book1.jpg"
-game: "/assets/images/games/game1.png"
-bgimg: "/assets/images/bg-img.jpg"
-
 name: 'Julia Nguyen'
 author: 'Julia'
 author_image: "/assets/images/logo.png"
