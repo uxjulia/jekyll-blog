@@ -9,7 +9,7 @@ gems:
 future: false
 
 # Site settings
-title: "JVLIA"
+title: "UXJULIA"
 description: > # this means to ignore newlines until "email:"
   A personal blog about tech, gadgets, product design and more
 email: hi@uxjulia.com
