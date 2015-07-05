@@ -11,7 +11,7 @@
 $rs: 16px
 
 $font-serif: "adobe-text-pro", Linux Libertine
-$font-sans: "proxima-nova-condensed", Lato, Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif
+$font-sans: "museo-sans-condensed", Lato, Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif
 
 
 @mixin respond-to($breakpoint)
@@ -139,7 +139,6 @@ body
     &:last-child
       border-bottom: 0px
     .post-title
-      letter-spacing: -0.02em
       font-weight: 400
       font-style: normal
       display: block
@@ -869,7 +868,7 @@ pre
   background-size: 175px 175px
 
 .archive
-  font-family: "proxima-nova-condensed"
+  font-family: $font-sans
   font-size: 20px
   h1
     font-size: 1.6em
@@ -880,6 +879,7 @@ pre
       display: inline
       float: right
       color: #A8A8A8
+      font-size: 16px
 
     //p
       //text-align: right
