@@ -14,7 +14,7 @@ description: > # this means to ignore newlines until "email:"
   A personal blog about tech, gadgets, product design and more
 email: hi@uxjulia.com
 #blog logo
-logo: "/assets/images/logo.png"
+logo: "/assets/images/jn2.png"
 # blog cover
 cover: "/assets/images/bg.jpg"
 
@@ -24,7 +24,7 @@ author_image: "/assets/images/logo.png"
 
 paginate:	5
 
-url: "http://www.jvlia.co" # the base hostname & protocol for your site
+url: "http://www.uxjulia.com" # the base hostname & protocol for your site
 baseurl: ""
 
 # social icons and sharing options
