@@ -2,7 +2,7 @@
 type: post
 layout: post
 title: "Rapid Prototyping with Post-It Notes"
-tagline: 
+tagline: Office Supplies for the Win
 tags:
 - UX
 - Mockups
