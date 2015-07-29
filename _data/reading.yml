@@ -1,6 +1,12 @@
 ---
-- title: Thinking Fast and Slow
-  author: Daniel Kahneman
-  link: http://amzn.to/1cmW2eZ
-  img: /assets/images/books/tfs.jpg
+#- title: Thinking Fast and Slow
+#  author: Daniel Kahneman
+#  link: http://amzn.to/1cmW2eZ
+#  img: /assets/images/books/tfs.jpg
+#  comment: ""
+
+- title: The Stuff of Thought
+  author: Steven Pinker
+  link: http://amzn.to/1HY7jxO
+  img: /assets/images/books/tsot.jpg
   comment: ""

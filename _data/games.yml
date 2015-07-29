@@ -5,14 +5,20 @@
 #  comment: "Many of you may be familiar with 2048. Threes is the original that they ripped off of (and the way better version) that requires more strategy and skill to get a high score. I've been a fan of this game for awhile now, but they've recently released a free version so go and download it! It's even been ported to the web!"
 #  image: /assets/images/games/threes.jpeg
 
-- title: Fallout Shelter
-  website: ""
-  itunesLink: https://itunes.apple.com/us/app/fallout-shelter/id991153141?mt=8&ign-mpt=uo%3D2
-  comment: "If you enjoy games similar to Sim Tower, you'll enjoy Fallout Shelter. The goal is to keep your dwellers safe and happy, prevent disasters like raider attacks and fires while building a vault that uses resources efficiently."
-  image: /assets/images/games/fallout.png
+#- title: Fallout Shelter
+#  website: ""
+#  itunesLink: https://itunes.apple.com/us/app/fallout-shelter/id991153141?mt=8&ign-mpt=uo%3D2
+#  comment: "If you enjoy games similar to Sim Tower, you'll enjoy Fallout Shelter. The goal is to keep your dwellers safe and happy, prevent disasters like raider attacks and fires while building a vault that uses resources efficiently."
+#  image: /assets/images/games/fallout.png
 
 #- title: 1010!
 #  website: http://www.1010ga.me
 #  itunesLink: https://itunes.apple.com/us/app/1010!/id911793120?mt=8
 #  comment: ""
 #  image: /assets/images/games/1010.png
+
+- title: Candy Crush Saga
+  website: http://candycrushsaga.com/
+  itunesLink: https://itunes.apple.com/us/app/candy-crush-saga/id553834731?mt%3D8
+  comment: "After being addicted to this game like the rest of my Facebook friends when it was all the rage a couple of years ago, I eventually grew tired of it. I recently decided to revist the game and discovered it's still just as addictive."
+  image: http://a1.mzstatic.com/us/r30/Purple1/v4/f2/9d/5a/f29d5ab1-a320-8230-bd88-0f0a91df8d4f/icon350x350.jpeg
