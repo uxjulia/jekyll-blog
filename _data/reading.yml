@@ -5,8 +5,14 @@
 #  img: /assets/images/books/tfs.jpg
 #  comment: ""
 
-- title: The Stuff of Thought
-  author: Steven Pinker
-  link: http://amzn.to/1HY7jxO
-  img: /assets/images/books/tsot.jpg
-  comment: "If you enjoy linguistics and its affect on human interactions, relationships and how we view the world, this is a good read. "
+#- title: The Stuff of Thought
+# author: Steven Pinker
+# link: http://amzn.to/1HY7jxO
+# img: /assets/images/books/tsot.jpg
+# comment: "If you enjoy linguistics and its affect on human interactions, relationships and how we view
+# the world, this is a good read. "
+
+- title: Essentialism
+  author: Greg McKeown
+  link: http://amzn.to/1Dow8o0
+  img: http://ecx.images-amazon.com/images/I/516TXpkm6%2BL._SY344_BO1,204,203,200_.jpg
