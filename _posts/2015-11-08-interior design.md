@@ -1,6 +1,7 @@
 ---
 type: post
 title: Interior designer, I am not.
+tagline: It's just not my forte.
 tags:
 - random
 - tv
