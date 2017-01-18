@@ -1,7 +1,5 @@
 # Build settings
-highlighter: pygments
-redcarpet:
-  extensions: ["strikethrough", "footnotes"]
+highlighter: rouge
 gems:
   - jemoji
 
